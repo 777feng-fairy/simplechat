@@ -1,0 +1,21 @@
+spring:
+  mvc:
+    servlet:
+      path: /
+      load-on-startup: 1
+    static-path-pattern: /**
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3307/security?useUnicode=true&characterEncoding=utf8&serverTimezone=GMT
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  rabbitmq:    host: 127.0.0.1
+    username: feng777
+    password: feng777
+    port: 15674
+    virtual-host: /feng777
+server:
+  port: 8080
+
+
+    
